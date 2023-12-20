@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <style>
+            h1{
+                color: black;
+                border: none;
+            }
+            h2{
+                color: black;
+                font-weight: normal;
+            }
+            p{
+                font-family: sans-serif;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Aquest text passarà a ser blau quan es premi el botó.
+        </h1>
+        <br/>
+        <h2>
+            Aquest text passarà a ser vermell quan es premi el botó.
+        </h2>
+        <br/>
+        <p class="paragraf">
+            Aquest paràgraf de text passarà a estar en la font de la familia Arial i a tamany de 20 píxels quan es premi el botó.
+        </p>
+        <br/>
+        <p class="paragraf">
+            Aquest paràgraf de text passarà a estar en la font de la familia Arial i a tamany de 20 píxels quan es premi el botó.
+        </p>
+        <br/>
+        <p class="paragraf">
+            Aquest paràgraf de text passarà a estar en la font de la familia Arial i a tamany de 20 píxels quan es premi el botó.
+        </p>
+        <br/>
+        <p class="paragraf">
+            Aquest paràgraf de text passarà a estar en la font de la familia Arial i a tamany de 20 píxels quan es premi el botó.
+        </p>
+        <br/>
+
+        <button onclick="canviarEstil()">Clica aquí per canviar l'estil</button>
+
+        <script>
+            function canviarEstil(){
+
+                var titol1 = document.querySelector('h1');
+                titol1.style.color = 'blue';
+                titol1.style.border = '2px solid yellow';
+
+                var titol2 = document.querySelector('h2');
+                titol2.style.color = 'red';
+                titol2.style.fontWeight = 'bold';
+
+                var paragrafs = document.querySelectorAll('.paragraf');
+                paragrafs.forEach(function(paragraf){
+                    paragraf.style.fontFamily = 'Arial';
+                    paragraf.style.fontSize = '20px';
+                })
+            }
+        </script>
+
+    </body>
+</html>
