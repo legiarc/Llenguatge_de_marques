@@ -35,11 +35,11 @@
         <menu>
             <nom_plat>Taula d'embotits i formatge</nom_plat>
             <tipus>Entrant</tipus>
-            <descripció></descripció>
+            <descripcio></descripcio>
             
             <nom_plat>Llomillo al vi blanc</nom_plat>
             <tipus>Plat principal</tipus>
-            <descripció>Peça de carn molt tendre cuinada dins vi blanc</descripció>
+            <descripcio>Peça de carn molt tendre cuinada dins vi blanc</descripcio>
 
             <nom_plat>Llubina a la llimona</nom_plat>
             <tipus>Segon plat</tipus>
@@ -47,23 +47,23 @@
 
             <nom_plat>Pastís de formatge</nom_plat>
             <tipus>Postre</tipus>
-            <descripció></descripció>
+            <descripcio></descripcio>
         </menu>
         <menu>
             <nom_plat>Amanida césar</nom_plat>
             <tipus>Entrant</tipus>
-            <descripció>Amanida amb crostons, pitera de pollastre arrebossat i una salsa clàssica</descripció>
+            <descripcio>Amanida amb crostons, pitera de pollastre arrebossat i una salsa clàssica</descripcio>
             
             <nom_plat>Bacallà a la planxa</nom_plat>
             <tipus>Plat principal</tipus>
-            <descripció></descripció>
+            <descripcio></descripcio>
 
             <nom_plat>Porcella rostida</nom_plat>
             <tipus>Segon plat</tipus>
-            <descripció></descripció>
-
+            <descripcio></descripcio>
+            
             <nom_plat>Peça de fruita variada</nom_plat>
             <tipus>Postre</tipus>
-            <descripció></descripció>
+            <descripcio></descripcio>
         </menu>
 </restaurant>
