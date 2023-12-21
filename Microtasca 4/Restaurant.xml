@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <restaurant>
         <plat>
             <codi>001</codi>
@@ -6,7 +6,7 @@
             <preu>11,99</preu>
             <descripcio>Pizza a l'estil napolità coronada amb rodanxes de pepperoni</descripcio>
             <alergens>Gluten</alergens>
-            <tipus>Plat principal</tipus>
+            <tipus>Plat_principal</tipus>
         </plat>
         <plat>
             <codi>002</codi>
@@ -30,7 +30,7 @@
             <preu>15,85</preu>
             <descripcio></descripcio>
             <alergens>Peix</alergens>
-            <tipus>Segon plat</tipus>
+            <tipus>Segon_plat</tipus>
         </plat>
         <menu>
             <nom_plat>Taula d'embotits i formatge</nom_plat>
@@ -38,11 +38,11 @@
             <descripcio></descripcio>
             
             <nom_plat>Llomillo al vi blanc</nom_plat>
-            <tipus>Plat principal</tipus>
+            <tipus>Plat_principal</tipus>
             <descripcio>Peça de carn molt tendre cuinada dins vi blanc</descripcio>
 
             <nom_plat>Llubina a la llimona</nom_plat>
-            <tipus>Segon plat</tipus>
+            <tipus>Segon_plat</tipus>
             <descripció></descripció>
 
             <nom_plat>Pastís de formatge</nom_plat>
@@ -55,11 +55,11 @@
             <descripcio>Amanida amb crostons, pitera de pollastre arrebossat i una salsa clàssica</descripcio>
             
             <nom_plat>Bacallà a la planxa</nom_plat>
-            <tipus>Plat principal</tipus>
+            <tipus>Plat_principal</tipus>
             <descripcio></descripcio>
 
             <nom_plat>Porcella rostida</nom_plat>
-            <tipus>Segon plat</tipus>
+            <tipus>Segon_plat</tipus>
             <descripcio></descripcio>
             
             <nom_plat>Peça de fruita variada</nom_plat>

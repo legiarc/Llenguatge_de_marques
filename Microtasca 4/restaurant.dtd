@@ -1,0 +1,18 @@
+<!ELEMENT restaurant (plat*, menu*)>
+
+<!ELEMENT plat (codi, nom, descripcio?, preu, al·lergens?, tipus)>
+<!ELEMENT codi (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT alergens (al·lergen*)>
+<!ELEMENT tipus (#PCDATA)>
+<!ATTLIST plat tipus (Entrant|Plat_principal|Segon_plat|Postre) #REQUIRED>
+
+<!ELEMENT menu (plat+)>
+
+<!ELEMENT plat (nom, descripcio?, tipus)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT tipus (#PCDATA)>
+<!ATTLIST plat tipus (Entrant|Plat_principal|Segon_plat|Postre) #REQUIRED>
