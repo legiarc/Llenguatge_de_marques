@@ -5,14 +5,14 @@
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT descripcio (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
-<!ELEMENT alergens (al·lergen*)>
+<!ELEMENT alergens (#PCDATA)>
 <!ELEMENT tipus (#PCDATA)>
 <!ATTLIST plat tipus (Entrant|Plat_principal|Segon_plat|Postre) #REQUIRED>
 
-<!ELEMENT menu (plat+)>
+<!ELEMENT menu (plat_menu+)>
 
-<!ELEMENT plat (nom, descripcio?, tipus)>
+<!ELEMENT plat_menu (nom, descripcio?, tipus)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT descripcio (#PCDATA)>
 <!ELEMENT tipus (#PCDATA)>
-<!ATTLIST plat tipus (Entrant|Plat_principal|Segon_plat|Postre) #REQUIRED>
+<!ATTLIST plat_menu tipus (Entrant|Plat_principal|Segon_plat|Postre) #REQUIRED>
