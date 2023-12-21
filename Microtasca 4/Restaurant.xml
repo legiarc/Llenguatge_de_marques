@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant>
+        <plat>
+            <codi></codi>
+            <nom></nom>
+            <preu></preu>
+            <descripcio></descripcio>
+            <alergens></alergens>
+            <tipus></tipus>
+        </plat>
+        <menu>
+            <nom_plat></nom_plat>
+            <tipus></tipus>
+            <descripció></descripció>
+        </menu>
+</restaurant>
