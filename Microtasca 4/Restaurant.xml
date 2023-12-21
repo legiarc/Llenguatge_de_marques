@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurant SYSTEM "C:\Users\marc\Documents\HTML\Microtasca 4\restaurant.dtd">
 <restaurant>
         <plat>
             <codi>001</codi>
@@ -36,51 +37,51 @@
 
             <plat_menu>
                 <nom_plat>Taula d'embotits i formatge</nom_plat>
-                <tipus>Entrant</tipus>
-                <descripcio></descripcio>
+                <tipus_plat>Entrant</tipus_plat>
+                <descripcio_plat></descripcio_plat>
             </plat_menu>
             
             <plat_menu>
                 <nom_plat>Llomillo al vi blanc</nom_plat>
-                <tipus>Plat_principal</tipus>
-                <descripcio>Peça de carn molt tendre cuinada dins vi blanc</descripcio>
+                <tipus_plat>Plat_principal</tipus_plat>
+                <descripcio_plat>Peça de carn molt tendre cuinada dins vi blanc</descripcio_plat>
             </plat_menu>
 
             <plat_menu>
                 <nom_plat>Llubina a la llimona</nom_plat>
-                <tipus>Segon_plat</tipus>
-                <descripcio></descripcio>
+                <tipus_plat>Segon_plat</tipus_plat>
+                <descripcio_plat></descripcio_plat>
             </plat_menu>
 
             <plat_menu>
                 <nom_plat>Pastís de formatge</nom_plat>
-                <tipus>Postre</tipus>
-                <descripcio></descripcio>
+                <tipus_plat>Postre</tipus_plat>
+                <descripcio_plat></descripcio_plat>
             </plat_menu>
         </menu>
         <menu>
             <plat_menu>
                 <nom_plat>Amanida césar</nom_plat>
-                <tipus>Entrant</tipus>
-                <descripcio>Amanida amb crostons, pitera de pollastre arrebossat i una salsa clàssica</descripcio>
+                <tipus_plat>Entrant</tipus_plat>
+                <descripcio_plat>Amanida amb crostons, pitera de pollastre arrebossat i una salsa clàssica</descripcio_plat>
             </plat_menu>
             
             <plat_menu>
                 <nom_plat>Bacallà a la planxa</nom_plat>
-                <tipus>Plat_principal</tipus>
-                <descripcio></descripcio>
+                <tipus_plat>Plat_principal</tipus_plat>
+                <descripcio_plat></descripcio_plat>
             </plat_menu>
 
             <plat_menu>
                 <nom_plat>Porcella rostida</nom_plat>
-                <tipus>Segon_plat</tipus>
-                <descripcio></descripcio>
+                <tipus_plat>Segon_plat</tipus_plat>
+                <descripcio_plat></descripcio_plat>
             </plat_menu>
             
             <plat_menu>
                 <nom_plat>Peça de fruita variada</nom_plat>
-                <tipus>Postre</tipus>
-                <descripcio></descripcio>
+                <tipus_plat>Postre</tipus_plat>
+                <descripcio_plat></descripcio_plat>
             </plat_menu>
         </menu>
 </restaurant>
