@@ -1,16 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <restaurant>
         <plat>
-            <codi></codi>
-            <nom></nom>
-            <preu></preu>
+            <codi>001</codi>
+            <nom>Pizza pepperoni</nom>
+            <preu>11,99</preu>
+            <descripcio>Pizza a l'estil napolità coronada amb rodanxes de pepperoni</descripcio>
+            <alergens>Gluten</alergens>
+            <tipus>Plat principal</tipus>
+        </plat>
+        <plat>
+            <codi>002</codi>
+            <nom>Croquetes de pernil salat</nom>
+            <preu>6,5</preu>
             <descripcio></descripcio>
-            <alergens></alergens>
-            <tipus></tipus>
+            <alergens>Gluten</alergens>
+            <tipus>Entrant</tipus>
+        </plat>
+        <plat>
+            <codi>003</codi>
+            <nom>Tiramisú</nom>
+            <preu>8</preu>
+            <descripcio>Postre típic italià fet amb pa de pessic, formatge mascarpone, café i decorat amb cacau en pols</descripcio>
+            <alergens>Lactosa</alergens>
+            <tipus>Postre</tipus>
+        </plat>
+        <plat>
+            <codi>004</codi>
+            <nom>Salmó a la planxa</nom>
+            <preu>15,85</preu>
+            <descripcio></descripcio>
+            <alergens>Peix</alergens>
+            <tipus>Segon plat</tipus>
         </plat>
         <menu>
-            <nom_plat></nom_plat>
-            <tipus></tipus>
+            <nom_plat>Taula d'embotits i formatge</nom_plat>
+            <tipus>Entrant</tipus>
+            <descripció></descripció>
+            
+            <nom_plat>Llomillo al vi blanc</nom_plat>
+            <tipus>Plat principal</tipus>
+            <descripció>Peça de carn molt tendre cuinada dins vi blanc</descripció>
+
+            <nom_plat>Llubina a la llimona</nom_plat>
+            <tipus>Segon plat</tipus>
+            <descripció></descripció>
+
+            <nom_plat>Pastís de formatge</nom_plat>
+            <tipus>Postre</tipus>
+            <descripció></descripció>
+        </menu>
+        <menu>
+            <nom_plat>Amanida césar</nom_plat>
+            <tipus>Entrant</tipus>
+            <descripció>Amanida amb crostons, pitera de pollastre arrebossat i una salsa clàssica</descripció>
+            
+            <nom_plat>Bacallà a la planxa</nom_plat>
+            <tipus>Plat principal</tipus>
+            <descripció></descripció>
+
+            <nom_plat>Porcella rostida</nom_plat>
+            <tipus>Segon plat</tipus>
+            <descripció></descripció>
+
+            <nom_plat>Peça de fruita variada</nom_plat>
+            <tipus>Postre</tipus>
             <descripció></descripció>
         </menu>
 </restaurant>
