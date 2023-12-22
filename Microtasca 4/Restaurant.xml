@@ -12,7 +12,6 @@
             <codi>002</codi>
             <nom>Croquetes de pernil salat</nom>
             <preu>6,5</preu>
-            <descripcio></descripcio>
             <alergens>Gluten</alergens>
         </plat>
         <plat tipus="Postre">
@@ -20,20 +19,17 @@
             <nom>Tiramisú</nom>
             <preu>8</preu>
             <descripcio>Postre típic italià fet amb pa de pessic, formatge mascarpone, café i decorat amb cacau en pols</descripcio>
-            <alergens>Lactosa</alergens>
         </plat>
         <plat tipus="Segon_plat">
             <codi>004</codi>
             <nom>Salmó a la planxa</nom>
             <preu>15,85</preu>
-            <descripcio></descripcio>
             <alergens>Peix</alergens>
         </plat>
         <menu>
 
             <plat_menu tipus="Entrant">
                 <nom_plat>Taula d'embotits i formatge</nom_plat>
-                <descripcio_plat></descripcio_plat>
             </plat_menu>
             
             <plat_menu tipus="Plat_principal">
@@ -43,12 +39,11 @@
 
             <plat_menu tipus="Segon_plat">
                 <nom_plat>Llubina a la llimona</nom_plat>
-                <descripcio_plat></descripcio_plat>
             </plat_menu>
 
             <plat_menu tipus="Postre">
                 <nom_plat>Pastís de formatge</nom_plat>
-                <descripcio_plat></descripcio_plat>
+                <descripcio_plat>Pastís de formatge al estil del restaurant La Viña</descripcio_plat>
             </plat_menu>
         </menu>
         <menu>
@@ -59,17 +54,15 @@
             
             <plat_menu tipus="Plat_principal">
                 <nom_plat>Bacallà a la planxa</nom_plat>
-                <descripcio_plat></descripcio_plat>
             </plat_menu>
 
             <plat_menu tipus="Segon_plat">
                 <nom_plat>Porcella rostida</nom_plat>
-                <descripcio_plat></descripcio_plat>
+                <descripcio_plat>Troç de porcella rostida a la llenya</descripcio_plat>
             </plat_menu>
             
             <plat_menu tipus="Postre">
                 <nom_plat>Peça de fruita variada</nom_plat>
-                <descripcio_plat></descripcio_plat>
             </plat_menu>
         </menu>
 </restaurant>

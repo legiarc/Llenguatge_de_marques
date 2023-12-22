@@ -10,7 +10,7 @@
                         <xs:element name="nom" type="nonemptystring"/>
                         <xs:element name="descripció" type="nonemptystring" minOccurs="0"/>
                         <xs:element name="preu" type="nonemptydouble"/>
-                        <xs:element name="al·lergens" type="nonemptystring" minOccurs="0"/>
+                        <xs:element name="alergens" type="nonemptystring" minOccurs="0"/>
                         <xs:element name="tipus">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
@@ -51,12 +51,14 @@
           </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:simpleType name="nonemptystring">
         <xs:restriction base="xs:string">
             <xs:minLength value="1"/>
             <xs:pattern value="\S.*"/>
         </xs:restriction>
     </xs:simpleType>
+
     <xs:simpleType name="nonemptydouble">
         <xs:restriction base="xs:double">
             <xs:minInclusive value="0.1"/>
