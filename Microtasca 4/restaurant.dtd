@@ -1,6 +1,7 @@
 <!ELEMENT restaurant (plat*, menu*)>
 
 <!ELEMENT plat (codi, nom, preu, descripcio?, alergens?, tipus)>
+<!ATTLIST plat tipus (Entrant|Plat_principal|Segon_plat|Postre) #REQUIRED>
 <!ELEMENT codi (#PCDATA)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
@@ -11,7 +12,7 @@
 
 <!ELEMENT menu (plat_menu+)>
 
-<!ELEMENT plat_menu (nom_plat, tipus_plat, descripcio_plat?)>
+<!ELEMENT plat_menu (nom_plat, descripcio_plat?)>
+<!ATTLIST plat_menu tipus (Entrant|Plat_principal|Segon_plat|Postre) #REQUIRED>
 <!ELEMENT nom_plat (#PCDATA)>
-<!ELEMENT tipus_plat (#PCDATA)>
 <!ELEMENT descripcio_plat (#PCDATA)>

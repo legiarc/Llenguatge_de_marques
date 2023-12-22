@@ -79,8 +79,7 @@
             </plat_menu>
             
             <plat_menu>
-                <nom_plat>Peça de fruita variada</nom_plat>
-                <tipus_plat>Postre</tipus_plat>
+                <nom_plat tipus="Postre">Peça de fruita variada</nom_plat>
                 <descripcio_plat></descripcio_plat>
             </plat_menu>
         </menu>

@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+    <xs:element name="restaurant">
+        <xs:complexType mixed="true">
+          <xs:all>
+            <xs:element name="plat" type="xs:string"></xs:element>
+            <xs:element name="menu" type="xs:string"></xs:element>
+          </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
