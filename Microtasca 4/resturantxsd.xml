@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\marc\Documents\HTML\Microtasca 4\restaurant.xsd">
+    <plat>
+        <codi>001</codi>
+        <nom>Pizza pepperoni</nom>
+        <preu>10.5</preu>
+        <tipus>Plat principal</tipus>
+    </plat>
+    <menu>
+        <plat_menu>
+            <nom_plat>Croquetes de pernil salat</nom_plat>
+            <tipus>Entrant</tipus>
+        </plat_menu>
+        <plat_menu>
+            <nom_plat>Paella</nom_plat>
+            <tipus>Plat principal</tipus>
+            <descripció>Plat d'arros original de Valencia</descripció>
+        </plat_menu>
+        <plat_menu>
+            <nom_plat>Peix a la planxa</nom_plat>
+            <tipus>Segon plat</tipus>
+        </plat_menu>
+        <plat_menu>
+            <nom_plat>Tiramisu</nom_plat>
+            <tipus>Postre</tipus>
+        </plat_menu>
+    </menu>
+</restaurant>

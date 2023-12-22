@@ -6,11 +6,11 @@
             <xs:element name="plat" maxOccurs="unbounded">
                 <xs:complexType>
                     <xs:all>
-                        <xs:element name="codi" type="xs:string"/>
-                        <xs:element name="nom" type="xs:string"/>
-                        <xs:element name="descripció" type="xs:string" minOccurs="0"/>
-                        <xs:element name="preu" type="xs:double"/>
-                        <xs:element name="al·lergens" type="xs:string" minOccurs="0"/>
+                        <xs:element name="codi" type="nonemptystring"/>
+                        <xs:element name="nom" type="nonemptystring"/>
+                        <xs:element name="descripció" type="nonemptystring" minOccurs="0"/>
+                        <xs:element name="preu" type="nonemptydouble"/>
+                        <xs:element name="al·lergens" type="nonemptystring" minOccurs="0"/>
                         <xs:element name="tipus">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
@@ -26,23 +26,41 @@
             </xs:element>
             <xs:element name="menu" maxOccurs="unbounded">
                 <xs:complexType>
-                    <xs:all>
-                        <xs:element name="nom_plat" type="xs:string"/>
-                        <xs:element name="descripció" type="xs:string" minOccurs="0"/>
-                        <xs:element name="tipus">
-                            <xs:simpleType>
-                                <xs:restriction base="xs:string">
-                                    <xs:enumeration value="Entrant"/>
-                                    <xs:enumeration value="Plat principal"/>
-                                    <xs:enumeration value="Segon plat"/>
-                                    <xs:enumeration value="Postre"/>
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:element>
-                    </xs:all>
+                    <xs:sequence>
+                        <xs:element name="plat_menu" maxOccurs="unbounded">
+                            <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="nom_plat" type="nonemptystring"/>
+                                        <xs:element name="descripció" type="nonemptystring" minOccurs="0"/>
+                                        <xs:element name="tipus">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Entrant"/>
+                                                    <xs:enumeration value="Plat principal"/>
+                                                    <xs:enumeration value="Segon plat"/>
+                                                    <xs:enumeration value="Postre"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:all>
+                            </xs:complexType>
+                        </xs:element>    
+                    </xs:sequence>
                 </xs:complexType>
             </xs:element>
           </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="nonemptystring">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:pattern value="\S.*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nonemptydouble">
+        <xs:restriction base="xs:double">
+            <xs:minInclusive value="0.1"/>
+            <xs:pattern value="[0-9]+(\.[0-9])?"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
