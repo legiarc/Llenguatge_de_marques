@@ -1,85 +1,74 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE restaurant SYSTEM "C:\Users\marc\Documents\HTML\Microtasca 4\restaurant.dtd">
 <restaurant>
-        <plat>
+        <plat tipus="Plat_principal">
             <codi>001</codi>
             <nom>Pizza pepperoni</nom>
             <preu>11,99</preu>
             <descripcio>Pizza a l'estil napolità coronada amb rodanxes de pepperoni</descripcio>
             <alergens>Gluten</alergens>
-            <tipus>Plat_principal</tipus>
         </plat>
-        <plat>
+        <plat tipus="Entrant">
             <codi>002</codi>
             <nom>Croquetes de pernil salat</nom>
             <preu>6,5</preu>
             <descripcio></descripcio>
             <alergens>Gluten</alergens>
-            <tipus>Entrant</tipus>
         </plat>
-        <plat>
+        <plat tipus="Postre">
             <codi>003</codi>
             <nom>Tiramisú</nom>
             <preu>8</preu>
             <descripcio>Postre típic italià fet amb pa de pessic, formatge mascarpone, café i decorat amb cacau en pols</descripcio>
             <alergens>Lactosa</alergens>
-            <tipus>Postre</tipus>
         </plat>
-        <plat>
+        <plat tipus="Segon_plat">
             <codi>004</codi>
             <nom>Salmó a la planxa</nom>
             <preu>15,85</preu>
             <descripcio></descripcio>
             <alergens>Peix</alergens>
-            <tipus>Segon_plat</tipus>
         </plat>
         <menu>
 
-            <plat_menu>
+            <plat_menu tipus="Entrant">
                 <nom_plat>Taula d'embotits i formatge</nom_plat>
-                <tipus_plat>Entrant</tipus_plat>
                 <descripcio_plat></descripcio_plat>
             </plat_menu>
             
-            <plat_menu>
+            <plat_menu tipus="Plat_principal">
                 <nom_plat>Llomillo al vi blanc</nom_plat>
-                <tipus_plat>Plat_principal</tipus_plat>
                 <descripcio_plat>Peça de carn molt tendre cuinada dins vi blanc</descripcio_plat>
             </plat_menu>
 
-            <plat_menu>
+            <plat_menu tipus="Segon_plat">
                 <nom_plat>Llubina a la llimona</nom_plat>
-                <tipus_plat>Segon_plat</tipus_plat>
                 <descripcio_plat></descripcio_plat>
             </plat_menu>
 
-            <plat_menu>
+            <plat_menu tipus="Postre">
                 <nom_plat>Pastís de formatge</nom_plat>
-                <tipus_plat>Postre</tipus_plat>
                 <descripcio_plat></descripcio_plat>
             </plat_menu>
         </menu>
         <menu>
-            <plat_menu>
+            <plat_menu tipus="Entrant">
                 <nom_plat>Amanida césar</nom_plat>
-                <tipus_plat>Entrant</tipus_plat>
                 <descripcio_plat>Amanida amb crostons, pitera de pollastre arrebossat i una salsa clàssica</descripcio_plat>
             </plat_menu>
             
-            <plat_menu>
+            <plat_menu tipus="Plat_principal">
                 <nom_plat>Bacallà a la planxa</nom_plat>
-                <tipus_plat>Plat_principal</tipus_plat>
                 <descripcio_plat></descripcio_plat>
             </plat_menu>
 
-            <plat_menu>
+            <plat_menu tipus="Segon_plat">
                 <nom_plat>Porcella rostida</nom_plat>
-                <tipus_plat>Segon_plat</tipus_plat>
                 <descripcio_plat></descripcio_plat>
             </plat_menu>
             
-            <plat_menu>
-                <nom_plat tipus="Postre">Peça de fruita variada</nom_plat>
+            <plat_menu tipus="Postre">
+                <nom_plat>Peça de fruita variada</nom_plat>
                 <descripcio_plat></descripcio_plat>
             </plat_menu>
         </menu>

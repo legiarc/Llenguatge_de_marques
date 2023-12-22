@@ -7,7 +7,6 @@
 <!ELEMENT preu (#PCDATA)>
 <!ELEMENT descripcio (#PCDATA)>
 <!ELEMENT alergens (#PCDATA)>
-<!ELEMENT tipus (#PCDATA)>
 
 
 <!ELEMENT menu (plat_menu+)>
