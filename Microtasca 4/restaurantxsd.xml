@@ -1,10 +1,47 @@
 <xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
     <xs:element name="restaurant">
         <xs:complexType mixed="true">
-          <xs:all>
-            <xs:element name="plat" type="xs:string"></xs:element>
-            <xs:element name="menu" type="xs:string"></xs:element>
-          </xs:all>
+          <xs:sequence>
+            <xs:element name="plat" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element name="codi" type="xs:string"/>
+                        <xs:element name="nom" type="xs:string"/>
+                        <xs:element name="descripció" type="xs:string" minOccurs="0"/>
+                        <xs:element name="preu" type="xs:double"/>
+                        <xs:element name="al·lergens" type="xs:string" minOccurs="0"/>
+                        <xs:element name="tipus">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Entrant"/>
+                                    <xs:enumeration value="Plat principal"/>
+                                    <xs:enumeration value="Segon plat"/>
+                                    <xs:enumeration value="Postre"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="menu" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element name="nom_plat" type="xs:string"/>
+                        <xs:element name="descripció" type="xs:string" minOccurs="0"/>
+                        <xs:element name="tipus">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Entrant"/>
+                                    <xs:enumeration value="Plat principal"/>
+                                    <xs:enumeration value="Segon plat"/>
+                                    <xs:enumeration value="Postre"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+          </xs:sequence>
         </xs:complexType>
     </xs:element>
 </xs:schema>
