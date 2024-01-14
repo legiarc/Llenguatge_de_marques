@@ -15,4 +15,4 @@ def validar_con_xsd(xml_file, xsd_file):
     except Exception as e:
         print(f"Error al validar el documento: {e}")
 
-validar_con_xsd('restaurantxsd.xml', 'restaurant.xsd')
+validar_con_xsd("restaurantxsd.xml", "restaurant.xsd")
