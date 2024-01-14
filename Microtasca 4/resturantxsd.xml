@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<restaurant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\marc\Documents\HTML\Microtasca 4\restaurant.xsd">
+<restaurant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="restaurant.xsd">
     <plat>
         <codi>001</codi>
         <nom>Pizza pepperoni</nom>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE restaurant SYSTEM "C:\Users\marc\Documents\HTML\Microtasca 4\restaurant.dtd">
+<!DOCTYPE restaurant SYSTEM "restaurant.dtd">
 <restaurant>
         <plat tipus="Plat_principal">
             <codi>001</codi>
